@@ -1,0 +1,17 @@
+{
+        "proxy": {
+                "allowip":["*"],
+                "endpoint": ":3308",
+                "meta-dir": "bin/radon-meta",
+                "peer-address": ":8080"
+        },
+        "audit": {
+                "audit-dir": "bin/radon-audit"
+        },
+        "log": {
+                "level": "INFO"
+        },
+        "monitor": {
+            "monitor-address": "0.0.0.0:13380"
+        }
+}
